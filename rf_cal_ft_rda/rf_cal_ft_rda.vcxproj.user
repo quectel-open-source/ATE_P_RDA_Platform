@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release1|Win32'">
+    <LocalDebuggerCommand>D:\RDA\RF_Final_Test_SPD_V1.3.50\RF_Final_Test_SPD_V1.3.50.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>..\..\..\RF_Final_Test_SPD_V1.3.50</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BT|Win32'">
+    <LocalDebuggerCommand>E:\归档工具\FT工具\展锐\RF_Final_Test_SPD_V1.3.11\RF_Final_Test_SPD_V1.3.11.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>E:\归档工具\FT工具\展锐\RF_Final_Test_SPD_V1.3.11\</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release4|Win32'">
+    <LocalDebuggerCommand>E:\归档工具\FT工具\展锐\RF_Final_Test_SPD_V1.3.11\RF_Final_Test_SPD_V1.3.11.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>E:\归档工具\FT工具\展锐\RF_Final_Test_SPD_V1.3.11\</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release3|Win32'">
+    <LocalDebuggerCommand>D:\工作资料\Code\ATE\RF_Final_Test_V2.06.01_RDA_DEMO\RF_Final_Test_V2.06.01_RDA_DEMO.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>D:\工作资料\Code\ATE\RF_Final_Test_V2.06.01_RDA_DEMO</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'">
+    <LocalDebuggerCommand>D:\工作资料\Code\ATE\Walter_RF_Tool\Demo\RF_Final_Test\RF_Final_Test_V2.27.2.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>D:\工作资料\Code\ATE\Walter_RF_Tool\Demo\RF_Final_Test</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

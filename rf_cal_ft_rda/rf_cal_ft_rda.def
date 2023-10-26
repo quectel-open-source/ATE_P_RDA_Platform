@@ -1,0 +1,6 @@
+; RDA_RF_Test.def : 声明 DLL 的模块参数。
+
+LIBRARY
+
+EXPORTS
+    ; 此处可以是显式导出
