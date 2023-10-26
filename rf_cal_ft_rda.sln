@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rf_cal_ft_rda", "rf_cal_ft_rda\rf_cal_ft_rda.vcxproj", "{13C8DADB-1837-4888-85DE-A82B10FFDC7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Power_Supply", "Power_Supply\Power_Supply.vcxproj", "{E63A069E-2CF5-4A71-80D6-5028393DC6AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BT|Win32 = BT|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Release1|Win32 = Release1|Win32
+		Release2|Win32 = Release2|Win32
+		Release3|Win32 = Release3|Win32
+		Release4|Win32 = Release4|Win32
+		惠尔丰|Win32 = 惠尔丰|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.BT|Win32.ActiveCfg = BT|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.BT|Win32.Build.0 = BT|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Debug|Win32.Build.0 = Debug|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release|Win32.ActiveCfg = Release4|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release|Win32.Build.0 = Release4|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release1|Win32.ActiveCfg = Release1|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release1|Win32.Build.0 = Release1|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release2|Win32.ActiveCfg = Release2|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release2|Win32.Build.0 = Release2|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release3|Win32.ActiveCfg = Release3|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release3|Win32.Build.0 = Release3|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release4|Win32.ActiveCfg = Release4|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.Release4|Win32.Build.0 = Release4|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.惠尔丰|Win32.ActiveCfg = Release4|Win32
+		{13C8DADB-1837-4888-85DE-A82B10FFDC7B}.惠尔丰|Win32.Build.0 = Release4|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.BT|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Debug|Win32.Build.0 = Debug|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release|Win32.Build.0 = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release1|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release2|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release3|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.Release4|Win32.ActiveCfg = Release|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.惠尔丰|Win32.ActiveCfg = BT|Win32
+		{E63A069E-2CF5-4A71-80D6-5028393DC6AB}.惠尔丰|Win32.Build.0 = BT|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
