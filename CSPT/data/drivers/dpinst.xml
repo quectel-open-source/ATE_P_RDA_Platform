@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dpInst>
+	<!-- chinese PRC -->
+	<language code="2052">
+		<dpinstTitle>锐迪科驱动安装包</dpinstTitle>
+	</language>
+	
+	<!-- english US -->
+	<language code="1033">
+		<dpinstTitle>RDA Driver Installation Package</dpinstTitle>
+	</language>
+	
+	<legacyMode/>
+	<deleteBinaries/>
+	<forceIfDriverIsNotBetter/>
+	<enableNotListedLanguages/>
+	
+	<group>
+		<package path=".\drivers\rdausbgallite.inf" />
+	</group>
+</dpInst>
+
