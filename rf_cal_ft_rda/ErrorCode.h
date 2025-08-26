@@ -308,6 +308,9 @@
 #define ERR_RDA_MEID_CHECK						0x22060010
 #define ERR_RDA_SN_WRITE						0x22060011
 #define ERR_RDA_SN_CHECK						0x22060012
+#define ERR_RDA_DLSW_CHECK						0x22060013
+#define ERR_RDA_LABEL_CHECK						0x22060014
+#define ERR_SIM_CARD_TEST						0x22060015
 
 
 class CErrorCode

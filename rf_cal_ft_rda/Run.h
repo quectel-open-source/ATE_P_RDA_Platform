@@ -165,6 +165,8 @@ struct PRODUCT_INFO
 	CString sMEID;
 	CString sGolden;
 	CString sTreeName;
+	CString sSW_DL;							        //软件版本信息,下载软件版本
+	CString sSW_Label;							    //软件版本信息，标签软件版本
 	int i_Process_Type;//PRODU_PROP_REP PRODU_PROP_NORMAL
 	int i_Produ_Type;
 	int i_Produ_Ver;
@@ -369,6 +371,7 @@ public:
 	void Initial_Produc_Info();
 	void Clear_Write_Numbers();
 	bool Test_Clear_All_Parameters();
+	void Clear_Check_SW();
 /****************测试释放****************/
 	void Test_Release_All();
 /****************log打印部分****************/
@@ -428,9 +431,21 @@ public:
 	bool Write_SN_Number(CString sSN);
 	bool Read_Golden_Number(CString& sGolden);
 	bool Write_Golden_Number(CString sGolden);
+
+	//读软件版本：下载软件版本
+	bool Read_FW_VER_QGMR(CString& sQGMR_VER);//QGMR读版本
+	//读软件版本：标签软件版本
+	bool Read_FW_VER_ATI(CString& sATI_VER);//ATI读版本
+	//测试SIM卡：
+	bool TEST_SIM_CARD();//AT+CPIN?
+	bool Do_Write_BackUP();//写备份指令AT+QPRTPARA=1 
+	bool Do_Check_BackUP();//检查备份指令AT+QPRTPARA?
+
 	void Close_ATComPort();
 	bool DO_Write_Number();
 	bool DO_Check_Number();
+	bool DO_Check_SW();
+	bool DO_Write_Check_BKPara();
 /****************测试标志位****************/
 	bool Check_SN_Length(CString sSN);
 	bool Check_SN_Flag(UINT iModel, CString sSN);

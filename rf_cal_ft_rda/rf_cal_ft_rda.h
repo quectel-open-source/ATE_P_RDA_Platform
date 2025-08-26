@@ -77,3 +77,10 @@ DLL_IMP bool RF_CAL_FT_RDA_DO_Check_NUMBER_IN_RF_CAL();
 //判断OPEN/SHORT金板是否合法金板（从数据库信息的来判断）
 DLL_IMP void RF_CAL_FT_RDA_LOAD_GOLDEN_BOARD_REF_FLAG( bool b_Rtn_Flag);
 
+/*********************界面传入软件版本的信息********************/
+//加载界面传入下载软件版本信息
+DLL_IMP void RF_CAL_FT_RDA_LOAD_DATA_SW_DL(const wchar_t * wcp_SW_DL);
+//加载界面传入标签软件版本信息
+DLL_IMP void RF_CAL_FT_RDA_LOAD_DATA_SW_Label(const wchar_t * wcp_SW_Label);
+
+
